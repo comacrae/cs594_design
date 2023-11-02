@@ -1,3 +1,33 @@
-{
-  "ip": "192.168.0.245"
+ {
+  "ip": "192.168.0.245",
+   "valid_keys": ["a","w","s","d", "q","e","r","1","2","i"],
+   "led": {
+      "default": [255,255,255] ,
+     "throw": [0,255,255],
+     "pet": [255,0,190]
+   },
+   "audio": {
+     "cute": [
+       "s_Acceptance.wav",
+       "s_Amazement.wav",
+       "s_Amazement2.wav",
+       "s_Awe.wav",
+       "s_Awe2.wav",
+       "s_Awe3.wav",
+       "s_Ecstacy.wav",
+       "s_Ecstacy2.wav",
+       "s_Joy.wav",
+       "s_Joy2.wav",
+       "s_Joy3.wav",
+       "s_Joy4.wav",
+       "s_Love.wav"
+     ],
+     "phrases": {
+       "fetch": "Go fetch!",
+       "introduction": "I'm Misty. I can throw a ball with my right arm which is blue and pet with my left arm which is pink.",
+       "greeting": "Hi there!",
+       "good_boy": "Who's a good boy?",
+       "good_girl": "Who's a good girl?"
+     }
+   }
 }
